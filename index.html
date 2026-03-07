@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>secret present</title>
+	<link rel="stylesheet" href="./css.css" />
+</head>
+<body>
+	<main class="scene" aria-label="Giao diện lá thư">
+		<section class="letter-wrap">
+			<article id="paper" class="paper" aria-hidden="true">
+				<!-- Corner flower (5 petals) - keeps same id/class for positioning/animation -->
+				<button id="corner-pinwheel" class="corner-pinwheel" aria-label="Bông hoa">
+					<span class="petal p1"></span>
+					<span class="petal p2"></span>
+					<span class="petal p3"></span>
+					<span class="petal p4"></span>
+					<span class="petal p5"></span>
+				</button>
+				<p class="women-day-line" aria-label="Happy Women Day">Happy Women Day 8/3</p>
+				<h1>Tặng Bà Món Tinh Thần Quà Nhỏ</h1>
+				<p>
+					Chúc bà có một ngày 8/3 thật là vui vẻ luôn cười thật nhìu,  mãi mãi xinh đẹp , chúc bà gặp nhiều thành công và có thêm nhìu sức khỏe và còn rất nhiều điều khác có nói mãi cũng hong thể hết . cuối cùng tui chúc bà sẽ là người con gái xinh đẹp , hạnh phúc nhất trên đời 💖
+				<div class="rose-bloom" aria-hidden="true">
+					<span class="rose-petal rp1"></span>
+					<span class="rose-petal rp2"></span>
+					<span class="rose-petal rp3"></span>
+					<span class="rose-petal rp4"></span>
+					<span class="rose-petal rp5"></span>
+					<span class="rose-petal rp6"></span>
+					<span class="rose-core"></span>
+					<span class="rose-stem"></span>
+					<span class="rose-leaf rl1"></span>
+					<span class="rose-leaf rl2"></span>
+				</div>
+				<div class="paper-gallery" aria-label="Ảnh kỷ niệm" >
+					<img src="./img/2.jpg" alt="Ảnh 2" class="paper-photo photo-2" />
+				</div>
+
+				<!-- Close button: gradient animated, closes the letter when clicked -->
+				<div class="paper-actions">
+					<button id="close-btn" class="close-btn" aria-label="Đóng thư">Đóng thư</button>
+				</div>
+			</article>
+
+			<button id="envelope" class="envelope" aria-controls="paper" aria-expanded="false">
+				<span class="front"></span>
+				<span class="flap"></span>
+				<span class="label">chạm để mở thư</span>
+			</button>
+		</section>
+	</main>
+
+	<script src="./js.js"></script>
+</body>
+</html>
